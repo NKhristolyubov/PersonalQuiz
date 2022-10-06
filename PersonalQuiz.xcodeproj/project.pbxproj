@@ -56,15 +56,55 @@
 		6066D91828EEB12400122792 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				6066D91928EEB12400122792 /* AppDelegate.swift */,
-				6066D91B28EEB12400122792 /* SceneDelegate.swift */,
-				6066D91D28EEB12400122792 /* ViewController.swift */,
-				6066D91F28EEB12400122792 /* Main.storyboard */,
-				6066D92228EEB12500122792 /* Assets.xcassets */,
-				6066D92428EEB12500122792 /* LaunchScreen.storyboard */,
-				6066D92728EEB12500122792 /* Info.plist */,
+				6066D92F28EEB2AD00122792 /* Models */,
+				6066D92D28EEB22100122792 /* Storyboards */,
+				6066D92E28EEB22C00122792 /* Viewcontrollers */,
+				6066D93128EEB2E700122792 /* SupportFiles */,
+				6066D93028EEB2CF00122792 /* Resources */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		6066D92D28EEB22100122792 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6066D91F28EEB12400122792 /* Main.storyboard */,
+				6066D92428EEB12500122792 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6066D92E28EEB22C00122792 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				6066D91D28EEB12400122792 /* ViewController.swift */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		6066D92F28EEB2AD00122792 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6066D93028EEB2CF00122792 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6066D92228EEB12500122792 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6066D93128EEB2E700122792 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6066D91928EEB12400122792 /* AppDelegate.swift */,
+				6066D91B28EEB12400122792 /* SceneDelegate.swift */,
+				6066D92728EEB12500122792 /* Info.plist */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35FRDMCSG6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35FRDMCSG6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
